@@ -1,0 +1,32 @@
+body {
+
+    background-image: url(/IMAGENES/fondobeige.jpg);
+    
+}
+.BienvenidosALibreriaNazca {
+    color: rgb(112, 32, 32);
+}
+.ElLibroMasdestacado {
+    color: black;
+}
+.elseñordelosanillos {
+    color: rgb(0, 0, 0);
+}
+.post{
+    color: whitesmoke;
+}
+.ListadeLibros{
+    color: whitesmoke;
+}
+.ListaDeComics{
+    color: whitesmoke;
+}
+.ListaDeCategorias{
+    color: whitesmoke;
+}
+.Libros2x1{
+    color: rgb(245, 245, 245);
+}
+.listalibros2x1{
+    color: rgb(204, 71, 71);
+}
