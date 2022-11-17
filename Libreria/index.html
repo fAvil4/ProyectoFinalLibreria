@@ -5,153 +5,184 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./libreria.css">
-    <title>Libreria</title>
-    <link rel="icon" href="/IMAGENES/bookrojo.ico.jpg">
+    <title>BookNazca</title>
+    <link rel="icon" href="/Libreria/IMAGENES/book.ico.jpg">
 </head>
+
 <body>
-<header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="libros.html">Libros</a></li>
-            <li><a href="comics.html">Comics</a></li>
-        </ul>
-    </nav>
-</header>
-
-<Article>
-
-        <section>
-            <div class="BienvenidosALibreriaNazca">
-                <h1 id="Libreria">Bienvenidos a Libreria Nazca</h1>
+    <header>
+        <div>
+                            <!-- Logo -->
+            <div class="Navegador" > 
+                <a href="index.html"><img class="Logo" src="./IMAGENES/book.ico.jpg" alt=""></a>
+                            <!--- Navegador -->
+                <nav>
+                    <ul class="nav-ul">
+                        <li class="nav-li">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+    
+                        <li class="nav-li">
+                            <a class="nav-link" href="./LIBROS/libros.html">Libros</a>
+                        </li>
+    
+                        <li class="nav-li">
+                            <a class="nav-link" href="./COMICS/comics.html">Comics</a>
+                        </li>
+                        
+                        <li class="nav-li">
+                            <a class="nav-link" href="./CARRITO/MiCarrito.html">Mi Carrito</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        
-            <div class="ElLibroMasdestacado">
-                <h2>El Libro mas Destacado</h2>
+        </div>
+
+    </header>
+                            <!-- Titulo -->
+    <Article class="box1">
+        <h1 class="Titulo">Book Nazca</h1>
+                            <!-- Libro mas Destacado -->
+        <section>
+            <div class="LibroMasdestacado">
+                <h2 class="h2-libromasdestacado">Libro mas Destacado</h2>
             </div>
 
             <div class="elseñordelosanillos">
-                <h3>El señor de los anillos</h3>
-            </div>
-
-            <div class="post">
-                <p>El Señor de los Anillos es una novela de fantasía épica escrita por 
-                    <br> el filólogo y escritor británico J. R. R. Tolkien.</p>
-            </div>
-            <img src="../IMAGENES/LIBRO.jpg">
+                <h3>El señor de los anillos - J.R.R. Tolkien</h3>
+                <img class="img-mas-destacado" src="/Libreria/IMAGENES/libros/el-senor-de-los-anillos-libro.jpg">
+            </div>    
         </section>
+    </Article>
+                            <!-- Lista de Productos -->
 
-</Article>
+                                <!-- Libros -->
+    <section class="box2">
 
-<Article> 
+        <div class="nuestroslibros">
+            <h2 class="h2-nuestroslibros">Nuestros Libros</h2>
+        </div>
 
-    <section>
-    <div>
-        <ul>
-            <div>
-                <div class="Libros">    <li>Libros</li> </div>
-                        <div class="ListadeLibros">
-                            <ol>
-                                <li>El hobbit</li>
-                                <li>Harry Potter y La Piedra Filosofal</li>
-                                <li>Mitos Clasificados 1</li>
-                                <li>El Gato Negro</li>
-                            </ol>
-                </div>
-            </div> 
+        <div class="conteiner-libros">
+
+            <div class="libros">
+                <img class="imghobbit" src="./IMAGENES/libros/el-hobbit-libro.jpg" alt=""></a>
+                <h3>El Hobbit</h3>
+                <p> <b>J.R.R. Tolkien</b> </p>
+                <p>ARG $ 3.400,00</p>
+            </div>
+
+            <div class="libros">
+                <img src="./IMAGENES/libros/harry-potter-piedra-filosofal-libro.jpg" alt="">
+                <h3>Harry Potter y La Piedra Filosofal</h3>
+                <p> <b>J.K. Rowling</b> </p>
+                <p> ARG $ 6.600,00</p>
+            </div>
+
+            <div class="libros">
+                <img src="./IMAGENES/libros/el-gato-negro-libro.jfif" alt="">
+                <h3>El Gato Negro y Otros Cuentos</h3>
+                <p> <b>Edgar Allan Poe</b> </p>
+                <p>ARG $ 6.100,00</p>
+            </div>
+
+            <div class="libros">
+                <img src="./IMAGENES/libros/mitos-griegos-libro.jpg" alt="">
+                <h3>Mitos Griegos</h3>
+                <p> <b>Mary Pope Osborne</b> </p>
+                <p>ARG $ 6.800,00</p>
+            </div>
+
+        </div>   
+    </section>
+
+                                <!-- Comics -->
+
+    <section class="box3">
+
+        <div class="nuestroscomics">
+            <h2 class="h2-nuestroscomics">Nuestros Comics</h2>
+        </div>
+
+        <div class="conteiner-comics">
+
+            <div class="comics">
+                <img src="./IMAGENES/comics/Daredevil-Born-Again-Comic.jpg" alt="">
+                <h3>Daredevil Born Again</h3>
+                <p><b>Frank Miller</b></p>
+                <p>ARG $ 4.200,00</p>
+            </div>
+
+            <div class="comics">
+                <img src="./IMAGENES/comics/Marvel-Zombies-The-Complete-Collection-Vol1-Comic.jpg" alt="">
+                <h3>Marvel Zombies <br> The Complete Collection</h3>
+                <p> <b>Robert Kirkman, Mark Millar, <br> Fred Van Lente, Sean Phillips</b> </p>
+                <p>ARG $ 5.600,00</p>
+            </div>
+
+            <div class="comics">
+                <img src="./IMAGENES/comics/Spider-man-Back-in-black-comic.jpg" alt="">
+                <h3>Spider-Man Back in Black</h3>
+                <p><b> Joseph Michael Straczynski, Peter David</b></p>
+                <p>ARG $ 5.600,00</p>
+            </div>
+
+            <div class="comics">
+                <img src="./IMAGENES/comics/Thanos-The-Infinity-Relativity-Comic.jpg" alt="">
+                <h3>Thanos The Infinity Relativity</h3>
+                <p><b>Jim Starlin</b></p>
+                <p>ARG $ 4.600,00</p>
+            </div>
+
+        </div>
             
-            <div>
-                <div class="Comics" >   <li>Comics</li> </div>
-                        <div class="ListaDeComics" >
-                            <ol>
-                                <li>Daredevil Born Again</li>
-                                <li>Thanos: The Infinity Relativity</li>
-                                <li>Marvel Zombies The Complete Collection Volume 1</li>
-                                <li>Spider-Man: Back in Black</li>
-                            </ol>
-                </div>
-            </div>
-
-            <div>
-                <div class="Categorias" >   <li>Categorias</li> </div>
-                        <div class="ListaDeCategorias">
-                            <ol>
-                                <li>Comics</li>
-                                <li>Poesias</li>
-                                <li>Policial</li>
-                                <li>Novelas de Fantasia</li>
-                            </ol>
-            </div>
-
-            <li class="Promociones">Promociones</li>
-                <div>
-                        <ol>
-                            <li class="Libros2x1">Libros 2x1</li>
-                                    <ol class="listalibros2x1">
-                                        <li style="list-style-type: square;" >El Gato Negro y El Hobbit</li>
-                                        <li style="list-style-type: square;" >Harry Potter y La Piedra Filosofal</li>
-                                    </ol>
-                        </ol>
-                </div>
-        </ul>
-        </div>
-    </section>
-    
-</article>
-
-<article>
-
-    <section>
-        <div>
-        
-        <h3><b>Promocion 1</b></h3>
-            <p>El Hobbit<br>Daredevil Born Again <br>Precio: $5800</p>
-            <a href="http://127.0.0.1:5500/Libro/index.html" target="_blank" rel="noopener noreferrer">Solicitar</a>
-        </div>
-
-        <div>
-            <h3><b>Promocion 2</b></h3>
-
-            <p>Harry Potter y La Piedra Filosofal<br>Spider Man: Back in Black <br>Precio: $5100</p>
-            <a href="http://127.0.0.1:5500/Libro/index.html" target="_blank" rel="noopener noreferrer">Solicitar</a>
-        </div>
-
-        <div>
-            <h3><b>Promocion 3</b></h3>
-
-            <p>Marvel Zombies The Complete Collection Vol 1<br>Thanos: The Infinity Relativity <br>Precio: $8400</p>
-
-            <a href="http://127.0.0.1:5500/Libro/index.html" target="_blank" rel="noopener noreferrer">Solicitar</a>
-        </div>
     </section>
 
-</article>
+                            <!-- Funkos -->
+    <section class="box4">
+        <div class="nuestrosfunkos">
+            <h2>Nuestros Funkos</h2>
+        </div>
 
-<article>
-        <h4> <b> Para recibir noticias y promociones de nuestro libros llena nuestro formulario.</b> </h1>
-</article>
+        <div class="conteiner-funkos">
 
-    <form action="/formulario" method="post">
+        <div class="funkos">
+            <img src="./IMAGENES/funkos/hulk-funko.jpg" alt="">
+            <h3>Funko Profesor Hulk</h3>
+            <p>ARG $ 3.000,00</p>
+            </div>
 
-        <label for="Nombre">Nombre</label>
-        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"  >
-        <label for="Apellido">Apellido</label>
-        <input type="text" id="Apellido" name="Apellido" placeholder="Apellido"  >
-        <label for="Email">Email</label>
-        <input type="email" id="Email" name="Email" placeholder="Email"  >
-        <button type="submit">Enviar</button>
-        
-    </form>
-    
-    <br>
+            <div class="funkos">
+                <img src="./IMAGENES/funkos/iron-man-funko.jpg" alt="">
+                <h3>Funko Iron-Man</h3>
+                <p>ARG $ 3.500,00</p>
+            </div>
 
+            <div class="funkos">
+                <img src="./IMAGENES/funkos/spider-man-funko.jpg" alt="">
+                <h3>Funko Spider-Man</h3>
+                <p>ARG $ 3.800,00</p>
+            </div>
+
+            <div class="funkos">
+                <img src="./IMAGENES/funkos/thor-funko.jpg" alt="">
+                <h3>Funko Thor</h3>
+                <p>ARG $ 3.400,00</p>
+            </div>
+
+        </div>
+
+    </section>
+
+                            <!-- Footer -->
     <footer>
-
-        <a href="#Libreria">Ir al Inicio</a>
-        <a target="_blank" href="https://www.google.com.ar/?hl=es">Buscar Libro</a>
-        <a target="_blank" href="https://www.instagram.com/">Instagram</a>
-        <a target="_blank" href="https://twitter.com/">Twitter</a>
-
+            <div class="footer-div">
+                <div class="footer-redes">
+                    <a target="_blank" href="https://www.instagram.com/faabriavila/"> <img src="./IMAGENES/footer/redes/ig-logo.jpg" alt=""> </a>
+                    <a target="_blank" href="https://twitter.com/"> <img src="./IMAGENES/footer/redes/fb-logo.jpg" alt=""> </a>
+                </div>
+                <p> <b> Copyright © Todos los derechos reservados - Libreria Nazca 2022 - Creador Fabrizio Avila </b></p>
+            </div>
     </footer>
     
 </body>

@@ -1,32 +1,243 @@
-body {
-
-    background-image: url(/IMAGENES/fondobeige.jpg);
+* {
+    margin: 0%;
+    padding: 0%;
+}
     
+body {
+    background-image: url(/Libreria/IMAGENES/fondobeige.jpg);
 }
-.BienvenidosALibreriaNazca {
-    color: rgb(112, 32, 32);
+/* logo */
+.Logo {
+    width: 35%;
+    height: 35%;
 }
-.ElLibroMasdestacado {
+/* navegador */
+
+header{ 
+    background-color: rgba(34,33,31,255);
+}
+
+.Navegador {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+
+}
+
+.nav-li {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 2px;
+    padding: 4px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(34,33,31,255);
+    cursor: pointer;
+    margin-right: 10px;
+}
+.nav-link {
+    color: rgb(131, 129, 124);
+    text-decoration: none;
+    display: block;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.nav-ul {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-right: 10px;
+}
+
+/* titulo */
+
+.Titulo {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    padding-bottom: 1rem;
+}
+
+
+/* libro mas destacado */
+
+.LibroMasdestacado {
+    color: red;
+}
+
+.box1 {
+    text-align: center;
+}
+
+.h2-libromasdestacado {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.elseñordelosanillos {
     color: black;
 }
-.elseñordelosanillos {
-    color: rgb(0, 0, 0);
+
+.img-mas-destacado {
+    width: 25rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
-.post{
+
+/* Libros */
+
+.nuestroslibros {
+    color: red;
+    padding-left: 1.5%;
+}
+
+.conteiner-libros{
+    display: flex;
+    gap:1%;
+    flex-wrap: wrap;
+}
+
+.libros{
+    margin: 3vh;
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    width: 25rem;
+}
+
+
+.libros img{
+    height: 70%;
+    width: 70%;
+    padding-bottom: 1rem;
+}
+
+.libros h3 {
+    color: black;
+    padding-bottom: 1%;
+    text-align: left;
+}
+
+.libros p {
     color: whitesmoke;
+    text-align: left;
+    font-size: small;
+    padding-bottom: 1%;
 }
-.ListadeLibros{
+
+/* Comics */
+
+.nuestroscomics {
+    color: red;
+    padding-left: 1.5%;
+}
+
+.conteiner-comics {
+    display: flex;
+    gap: 1%;
+    flex-wrap: wrap;
+}
+
+.comics {
+    margin: 3vh;
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    width: 25rem;
+}
+
+.comics img {
+    height: 70%;
+    width: 70%;
+    padding-bottom: 1rem;
+}
+
+.comics h3 {
+    color: black;
+    padding-bottom: 1%;
+    text-align: left;
+}
+
+.comics p {
     color: whitesmoke;
+    text-align: left;
+    font-size: small;
+    padding-bottom: 1%;
 }
-.ListaDeComics{
+
+/* Funkos */
+
+.nuestrosfunkos {
+    color: red;
+    padding-left: 1.5%;
+}
+
+.conteiner-funkos {
+    display: flex;
+    gap: 1%;
+    flex-wrap: wrap;
+}
+
+.funkos {
+    margin: 3vh;
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    width: 25rem;
+}
+.funkos img {
+    height: 88%;
+    width: 88%;
+    padding-bottom: 1rem;
+}
+
+.funkos h3 {
+    color: black;
+    padding-bottom: 1%;
+    text-align: left;
+}
+
+.funkos p {
     color: whitesmoke;
+    text-align: left;
+    font-size: small;
+    padding-bottom: 1%;
 }
-.ListaDeCategorias{
-    color: whitesmoke;
+
+/* Footer */
+
+footer {
+    display: flex;
+    background-image: url(./IMAGENES/fondobeige.jpg);
+    padding: 10px;
+    justify-content: center;
+    height: 155px; 
 }
-.Libros2x1{
-    color: rgb(245, 245, 245);
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
-.listalibros2x1{
-    color: rgb(204, 71, 71);
+
+.footer-div img  {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 1rem;
 }
+
+.footer p {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px; 
+}
+
